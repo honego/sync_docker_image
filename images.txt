@@ -5,9 +5,19 @@
 # 支持指定架构
 # --platform=linux/arm64 xiaoyaliu/alist
 
+####################
 
 honeok/nginx:1.31.2-alpine
 eclipse-temurin:21.0.11_10-jre-alpine
 alpine:3.24.1
 percona/percona-server:8.4.10-10.1
 quay.io/argoproj/argocd:v3.4.4
+
+## Kubernetes
+registry.k8s.io/pause:3.10.2
+registry.k8s.io/kube-apiserver:v1.36.2
+registry.k8s.io/kube-controller-manager:v1.36.2
+registry.k8s.io/kube-scheduler:v1.36.2
+registry.k8s.io/kube-proxy:v1.36.2
+registry.k8s.io/etcd:3.6.9-0
+registry.k8s.io/coredns/coredns:v1.14.2
