@@ -22,5 +22,8 @@
 # registry.k8s.io/etcd:3.6.9-0
 # registry.k8s.io/coredns/coredns:v1.14.2
 
-registry.k8s.io/metrics-server/metrics-server:v0.7.2
-registry.k8s.io/metrics-server/metrics-server:v0.8.1
+
+# registry.k8s.io/metrics-server/metrics-server:v0.8.1
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1
+
+registry.k8s.io/e2e-test-images/agnhost:2.66.0
