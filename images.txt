@@ -22,5 +22,5 @@
 # registry.k8s.io/etcd:3.6.9-0
 # registry.k8s.io/coredns/coredns:v1.14.2
 
-registry.k8s.io/pause:3.8
-registry.k8s.io/coredns/coredns:v1.11.3
+registry.k8s.io/metrics-server/metrics-server:v0.7.2
+registry.k8s.io/metrics-server/metrics-server:v0.8.1
